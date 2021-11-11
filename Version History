@@ -1,0 +1,34 @@
+Zombie RPG 0.1
+* The player can meet a opponent.
+------------------------------------------------------------------------------------------------------------------------
+Zombie RPG 0.2
+* The player can loose health from a opponent.
+* The player can damage a opponent health.
+* The player can die.
+------------------------------------------------------------------------------------------------------------------------
+Zombie RPG 0.3 <--- [CURRENT VERSION]
+* The player can find a baseball bat from a opponent and use it to increase damage
+------------------------------------------------------------------------------------------------------------------------
+Apocalypse RPG 0.4
+* ADDED THE LOGO :3
+* IMPLEMENT TURNS
+- Turns allows the game to proceed in turns.
+- There are two main turns where the whole game is played.
+- The player turn: you attack enemies incoming and based on the damage that you deliver to them, win or lose the match
+-- During the player turn there should be a 'loot gathering phase' where he can decide which items to take from the dead enemy!!!
+- The enemy turn: the enemy attacks you and you get debuffs and damage depending on what item they use
+- The game ends if the player is dead during the enemy turn.
+* IMPLEMENT WEAPONS AND INVENTORY SYSTEM
+- Weapons are stored inside the player data and the enemy data in an inventory system.
+- The player and the enemy can use the weapons to deliver more damage or debuffs to the opponent.
+- The weapon can break eventually from wearing out during fights, so they have a resistance
+- Example of weapons: baseball bat, knife, pipe, piece of glass, hammer, chainsaw, handgun, shotgun, etc... (just throwing out ideas)
+- If the player kills an enemy he can decide to take the lost weapons or ignore this phase.
+------------------------------------------------------------------------------------------------------------------------
+Apocalypse RPG 0.5
+* IMPLEMENT EXPERIENCE
+- The player can attack an enemy that has an amount of experience itself
+- If the player succeeds in killing the enemy it gathers all the exp from the enemy
+- This in future will have consequences with a new system that allows the player to power up (not defined yet)
+* IMPLEMENT MEDS AND FIRST AID KITS
+- The meds allow the player to heal itself during the game or to heal infections
